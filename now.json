@@ -4,18 +4,14 @@
     "public": false,
     "builds": [
         {
-            "src": "api/hello.py",
+            "src": "api/main.py",
             "use": "@now/python"
         }
     ],
     "routes": [
         {
             "src": "/",
-            "dest": "api/hello.py"
-        },
-        {
-            "src": "/hello",
-            "dest": "api/hello.py"
+            "dest": "api/main.py"
         }
     ]
 }
