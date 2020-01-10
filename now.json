@@ -12,10 +12,6 @@
         {
             "src": "/",
             "dest": "api/hello.py"
-        },
-        {
-            "src": "/hello",
-            "dest": "api/hello.py"
         }
     ]
 }
